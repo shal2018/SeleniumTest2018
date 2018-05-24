@@ -25,14 +25,14 @@ public class L22_DynamixXpath {
 		//[contains(text(),'selenium')]
 		//Thread.sleep(5000);
 		
-		//Не заработало как хотелось бы!!
+		//ГЌГҐ Г§Г Г°Г ГЎГ®ГІГ Г«Г® ГЄГ ГЄ ГµГ®ГІГҐГ«Г®Г±Гј ГЎГ»!!
 		System.out.println(list.size());
 		for(int i=0;i<list.size();i++) {
 			System.out.println(list.get(i).getText());
 			/*if(list.get(i).getText().contains(">selenium")) {
 				System.out.println(list.get(i).getText());
 			}*/
-		//comment+
+		//comment+++
 		}
 					
 		}
