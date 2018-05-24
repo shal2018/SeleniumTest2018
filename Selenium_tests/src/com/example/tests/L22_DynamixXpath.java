@@ -32,7 +32,7 @@ public class L22_DynamixXpath {
 			/*if(list.get(i).getText().contains(">selenium")) {
 				System.out.println(list.get(i).getText());
 			}*/
-		//comment
+		//comment+
 		}
 					
 		}
