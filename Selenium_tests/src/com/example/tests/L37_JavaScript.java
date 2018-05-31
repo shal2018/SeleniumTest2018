@@ -13,7 +13,7 @@ public class L37_JavaScript {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://javascriptkit.com/javatutors/event2.shtml");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		
+
 		//driver.findElement(By.xpath("//*[@id='contentcolumn']/div[1]/table/tbody/tr/td[2]/form/input")).click();
 		//((JavascriptExecutor) driver).executeScript("inform()");
 		((JavascriptExecutor) driver).executeScript("document.getElementsByName('fd0')[0].click()");
